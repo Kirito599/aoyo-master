@@ -23,7 +23,7 @@ public class UserController {
             session.setAttribute("USER", user1);
             return "index";
         } else {
-            return "qweqwe";
+            return "login";
         }
     }
 
